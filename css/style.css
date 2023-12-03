@@ -1,6 +1,6 @@
 body{
     font-family: Roboto, sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
     line-height: 24px;
     text-align: left;
@@ -13,14 +13,15 @@ body{
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    line-height: 21px;
+    line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
-    color: inherit;
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
  }
 
  .navi-logo .accent{
-    color: #4D5AE5;
+    color: #2e2f42;
  }
 
  .navi-link-studio, .navi-link{
@@ -105,12 +106,9 @@ body{
     color: #F4F4FD;
 }
 
+.final-logo .accent,
 .final-section .text{
-    color: inherit;
-}
-
-.final-logo .accent{
-    color: #4D5AE5;
+    color: #f4f4fd;
 }
 
 
