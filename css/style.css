@@ -25,14 +25,17 @@ body{
  }
 
  .navi-link-studio, .navi-link{
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: none;
-    color: inherit;
+    color: #2e2f42;
  }
 
  .navi-link-studio:hover,
+ .navi-link-studio:focus,
  .navi-link:hover,
- .address-link:hover{
+ .navi-link:focus,
+ .address-link:hover,
+ .address-link:focus{
     color: #404BBF;
  }
 
@@ -46,6 +49,7 @@ body{
     font-style: normal;
  }
 
+
  /*Section 1*/
 
  .section-one{
@@ -55,9 +59,15 @@ body{
  .button{
     color: inherit;
     background: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
  }
 
- .button:hover{
+
+ .button:hover,
+ .button:focus{
     background: #404BBF;
  }
 
@@ -65,21 +75,29 @@ body{
 .page-title{
     font-size: 56px;
     font-weight: bold;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 /*h2*/
 .section-title{
     font-size: 36px;
-    font-weight: bold;
-    line-height: 40px;
+    font-weight: 500;
+    line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 /*h3*/
 .title{
     font-size: 20px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    font-weight: 500;
 }
 
 .text{
