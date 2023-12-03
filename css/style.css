@@ -2,4 +2,115 @@ body{
     font-family: Roboto, sans-serif;
     color: #2E2F42;
     background-color: #FFFFFF;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    font-size: 16px;
 }
+
+ /*Header */
+ .navi-logo, .final-logo{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+ }
+
+ .navi-logo .accent{
+    color: #4D5AE5;
+ }
+
+ .navi-link-studio, .navi-link{
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+ }
+
+ .navi-link-studio:hover,
+ .navi-link:hover,
+ .address-link:hover{
+    color: #404BBF;
+ }
+
+ .navi-link-studio:active{
+    text-decoration: underline;
+ }
+
+ .address-link{
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+ }
+
+ /*Section 1*/
+
+ .section-one{
+    color: #FFFFFF;
+    background-color: #2E2F42;
+ }
+ .button{
+    color: inherit;
+    background: #4D5AE5;
+ }
+
+ .button:hover{
+    background: #404BBF;
+ }
+
+ /*h1*/
+.page-title{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+}
+
+/*h2*/
+.section-title{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+/*h3*/
+.title{
+    font-size: 20px;
+}
+
+.text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.section-card {
+    background-color: #FFFFFF;
+}
+
+.section-three{
+    background-color: #F4F4FD;
+}
+
+/*final*/
+.final-section{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.final-section .text{
+    color: inherit;
+}
+
+.final-logo .accent{
+    color: #4D5AE5;
+}
+
+
