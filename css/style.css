@@ -2,17 +2,15 @@ body{
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    line-height: 24px;
-    text-align: left;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    font-size: 16px;
 }
 
  /*Header */
  .navi-logo, .final-logo{
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
@@ -57,10 +55,9 @@ body{
     background-color: #2E2F42;
  }
  .button{
-    color: inherit;
-    background: #4D5AE5;
+    color: currentColor;
+    background-color: #4D5AE5;
     font-weight: 500;
-    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
  }
@@ -68,15 +65,14 @@ body{
 
  .button:hover,
  .button:focus{
-    background: #404BBF;
+    background-color: #404BBF;
  }
 
  /*h1*/
 .page-title{
     font-size: 56px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -86,23 +82,19 @@ body{
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 /*h3*/
 .title{
     font-size: 20px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
     font-weight: 500;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .text{
-    font-size: 16px;
-    line-height: 24px;
     color: #434455;
 }
 
@@ -114,8 +106,12 @@ body{
     background-color: #FFFFFF;
 }
 
-.section-three{
+.section-two {
     background-color: #F4F4FD;
+}
+
+.section-three{
+    background-color: #E7E9FC;
 }
 
 /*final*/
