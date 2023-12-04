@@ -28,6 +28,12 @@ body{
     color: #2e2f42;
  }
 
+.address-link {
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
+
  .navi-link:hover,
  .navi-link:focus,
  .address-link:hover,
@@ -35,11 +41,6 @@ body{
     color: #404BBF;
  }
 
- .address-link{
-    text-decoration: none;
-    color: inherit;
-    font-style: normal;
- }
 
 
  /*Section 1*/
