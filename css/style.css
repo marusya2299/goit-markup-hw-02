@@ -105,13 +105,10 @@ body{
     background-color: #FFFFFF;
 }
 
-.section-two {
+.section-two, .section-three{
     background-color: #F4F4FD;
 }
 
-.section-three{
-    background-color: #E7E9FC;
-}
 
 /*final*/
 .final-section{
