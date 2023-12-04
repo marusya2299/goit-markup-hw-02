@@ -27,9 +27,11 @@ body{
     text-decoration: none;
     color: #2e2f42;
  }
+.address{
+    font-style: normal;
+}
 
 .address-link {
-    font-style: normal;
     text-decoration: none;
     color: inherit;
 }
