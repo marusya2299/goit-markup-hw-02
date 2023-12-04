@@ -29,7 +29,6 @@ body{
  }
 
 .address-link {
-    font-style: normal;
     text-decoration: none;
     color: inherit;
 }
@@ -49,6 +48,7 @@ body{
     color: #FFFFFF;
     background-color: #2E2F42;
  }
+
  .button{
     color: currentColor;
     background-color: #4D5AE5;
