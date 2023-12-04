@@ -29,6 +29,7 @@ body{
  }
 
 .address-link {
+    font-style: normal;
     text-decoration: none;
     color: inherit;
 }
